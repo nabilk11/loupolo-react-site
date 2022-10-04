@@ -13,6 +13,39 @@
     flex: 3;
 }
 
+.navItemList {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navItem {
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
 .topCenter {
     flex: 6;
+}
+
+.socialIcon {
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+    color: slategrey;
+
+}
+
+.topImg {
+    width: 40px;
+    object-fit: cover;
+}
+
+.searchIcon {
+    color: slategrey;
+    margin-left: 10px;
 }
